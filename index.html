@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Geektopia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000033;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .banner-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .button-overlay {
+            position: relative;
+            width: 100%;
+        }
+        
+        .register-button {
+            position: absolute;
+            width: 70%;
+            left: 15%;
+            height: 5.5%;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: opacity 0.3s;
+        }
+        
+        .register-button:hover {
+            opacity: 0.8;
+        }
+        
+        .register-button:active {
+            opacity: 0.6;
+        }
+        
+        .button-1 {
+            top: 29%;
+        }
+        
+        .button-2 {
+            top: 63.5%;
+        }
+        
+        .button-3 {
+            top: 88.5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="button-overlay">
+            <img src="nuevonivel.png" 
+                 alt="Level Up Geektopia" 
+                 class="banner-image">
+            
+            <button class="register-button button-1" 
+                    onclick="window.location.href='https://forms.gle/vBxTMGdSF321TvACA'">
+            </button>
+            
+            <button class="register-button button-2" 
+                    onclick="window.location.href='https://forms.gle/vBxTMGdSF321TvACA'">
+            </button>
+            
+            <button class="register-button button-3" 
+                    onclick="window.location.href='https://forms.gle/vBxTMGdSF321TvACA'">
+            </button>
+        </div>
+    </div>
+</body>
+</html>
